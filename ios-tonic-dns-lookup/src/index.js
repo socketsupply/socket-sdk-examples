@@ -1,4 +1,4 @@
-import { dns } from '@socketsupply/io';
+const { dns } = require('@socketsupply/io');
 
 const results = document.querySelector('#results');
 const input = document.querySelector('#hostname');
